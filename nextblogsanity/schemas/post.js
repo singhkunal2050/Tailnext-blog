@@ -18,6 +18,15 @@ export default {
       },
     },
     {
+      name: 'description',
+      title: 'Description',
+      type: 'string',
+      options: {
+        source: 'title',
+        type: 'string',
+      },
+    },
+    {
       name: 'author',
       title: 'Author',
       type: 'reference',
