@@ -66,6 +66,20 @@
 
 ## created custom schema for comment 
 ## Add comment to schema.js 
+## sanity deploy for deploying backend 
+`sanity deploy`
+
+Deployed Admin
+```
+https://mediumblogadmin.sanity.studio/
+
+```
+
+Deployed Vercel 
+
+```
+https://tailnext-blog.vercel.app/
+```
 
 
 ____________________________________________________________________________--
