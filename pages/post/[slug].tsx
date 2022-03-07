@@ -67,7 +67,7 @@ function Post({ post }: Props) {
             />
             <p className="text-gray-400">
               Blog Post by <strong>{post.author.name}</strong> |{' '}
-              {new Date(post._createdAt).toLocaleString().split(',')[0]}
+              {/* {new Date(post._createdAt).toLocaleString().split(',')[0]} */}
             </p>
           </div>
 
