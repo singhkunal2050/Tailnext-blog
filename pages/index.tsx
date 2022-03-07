@@ -33,7 +33,7 @@ const Home = ({ posts }: Props) => {
                 key={post._id}
                 className="card rounded-sm border-2  py-2 shadow-md"
               >
-                <Link key={post._id} href={`/posts/${post.slug.current}`}>
+                <Link key={post._id} href={`/post/${post.slug.current}`}>
                   <div>
                     <div className="card-img">
                       <img
@@ -48,7 +48,7 @@ const Home = ({ posts }: Props) => {
                     </div>
                     <div className="author flex items-center gap-2 py-2 px-4">
                       <img
-                        src="//source.unsplash.com/50x50?profile"
+                        src={urlFor(post.author.image).url()}
                         alt=""
                         className="max-w-[13%] rounded-full"
                       />

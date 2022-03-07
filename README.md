@@ -48,12 +48,24 @@
 ## pushed on githb
 
 
+## Created [slug.tsx] for  /post/post-item route 
+
+## Used getStaticPaths and Props 
+
+## Installed Tailwind Typography for blog page
+
+## Installed Portable text for parsing body from json
 
 
+## Installed react-hook-form
 
+## Create API Routes from /api/apiname.ts
+## install sanity-client for the same 
 
+## Created API Token for editor and added to env file
 
-
+## created custom schema for comment 
+## Add comment to schema.js 
 
 
 ____________________________________________________________________________--
