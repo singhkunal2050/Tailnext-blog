@@ -118,7 +118,7 @@ function Post({ post }: Props) {
                 Your Email
               </label>
               <input
-                {...register('email', { required: true , t })}
+                {...register('email', { required: true })}
                 type="email"
                 id="email"
                 name="email"
