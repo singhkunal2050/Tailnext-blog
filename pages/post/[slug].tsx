@@ -173,7 +173,7 @@ function Post({ post }: Props) {
 
         <div className='prose mx-auto max-w-5xl px-4 pt-4'>
               {post.comments.map((comment)=>(
-                <div>
+                <div key={comment._id}>
                   {comment.comment}
                 </div>
               ))}
