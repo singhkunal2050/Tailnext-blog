@@ -31,7 +31,7 @@ const Home = ({ posts }: Props) => {
             {posts.map((post) => (
               <div
                 key={post._id}
-                className="card rounded-sm border-2  py-2 shadow-md"
+                className=" card cursor-pointer rounded-sm border-2 pb-2  shadow-md hover:bg-[#efefef]"
               >
                 <Link key={post._id} href={`/post/${post.slug.current}`}>
                   <div>
@@ -97,7 +97,7 @@ const Home = ({ posts }: Props) => {
           </div>
         </div>
       </section>
-      <Footer/>   
+      <Footer />
     </div>
   )
 }

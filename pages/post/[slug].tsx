@@ -44,7 +44,6 @@ function Post({ post }: Props) {
 
   console.log(post)
 
-
   return (
     <React.Fragment>
       <Header />
@@ -171,15 +170,25 @@ function Post({ post }: Props) {
           </form>
         )}
 
-        <div className='prose mx-auto max-w-5xl px-4 pt-4'>
-              {post.comments.map((comment)=>(
-                <div key={comment._id}>
-                  {comment.comment}
+        {post.comments && (
+          <>
+            <div className="heading pb-2 text-center">
+              <h1 className="text-2xl font-extrabold">Comments</h1>
+            </div>
+            <div className="mx-auto max-w-5xl px-4 pt-4">
+              {post.comments.map((comment) => (
+                <div
+                  key={comment._id}
+                  className="card m-2 bg-blue-100 p-2 shadow-sm"
+                >
+                  <h1 className="text-base font-medium">{comment.name}</h1>
+                  <h2 className="text-xs">{comment.comment}</h2>
+                  <p className='text-xs text-gray-600'>{new Date(comment._createdAt).toLocaleString().split(',')[0  ]}</p>
                 </div>
               ))}
-        </div>
-
-
+            </div>
+          </>
+        )}
       </main>
       <Footer />
     </React.Fragment>
