@@ -24,19 +24,19 @@ function Header() {
             >
             {/* <div className="hidden nav-items md:flex  items-center gap-4 list-none"> */}
             <li  onClick={() => window.innerWidth<768 && setIsOpen(!isOpen)} >
-              <Link href={'/'} > Our Story</Link>
+              <Link href={'/our-story'} > Our Story</Link>
             </li>
             <li  onClick={() => window.innerWidth<768 && setIsOpen(!isOpen)} >
-              <Link href={'/'} > Membership</Link>
+              <Link href={'/membership'} > Membership</Link>
             </li>
             <li  onClick={() => window.innerWidth<768 && setIsOpen(!isOpen)} >
-              <Link href={'/'} > Write</Link>
+              <Link href={'/write'} > Write</Link>
             </li>
             <li  onClick={() => window.innerWidth<768 && setIsOpen(!isOpen)} >
-              <Link href={'/'} > Sign In</Link>
+              <Link href={'/sign-in'} > Sign In</Link>
             </li>
             <li  onClick={() => window.innerWidth<768 && setIsOpen(!isOpen)} className="rounded-3xl bg-black p-2 text-white">
-              <Link href={'/'} > Get Started</Link>
+              <Link href={'/get-started'} > Get Started</Link>
             </li>
           </div>
           <div
