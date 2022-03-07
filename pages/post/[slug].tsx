@@ -170,7 +170,7 @@ function Post({ post }: Props) {
           </form>
         )}
 
-        {post.comments && (
+        {post.comments.length>0 ? (
           <>
             <div className="heading pb-2 text-center">
               <h1 className="text-2xl font-extrabold">Comments</h1>
@@ -188,6 +188,8 @@ function Post({ post }: Props) {
               ))}
             </div>
           </>
+        ) : (
+          ''  
         )}
       </main>
       <Footer />
