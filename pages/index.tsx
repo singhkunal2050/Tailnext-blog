@@ -25,7 +25,7 @@ const Home = ({ posts }: Props) => {
       <section className="blogs">
         <div className="mx-auto max-w-5xl py-10">
           <div className="heading pb-7 text-center">
-            <h1 className="text-4xl font-extrabold">Blogs</h1>
+            <h1 className="text-4xl font-extrabold">Posts</h1>
           </div>
 
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:px-20">
