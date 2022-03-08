@@ -3,7 +3,6 @@ import { useState } from 'react'
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false)
-
   return (
     <header>
       <nav className="border-2 border-b-black bg-blue-200 ">
