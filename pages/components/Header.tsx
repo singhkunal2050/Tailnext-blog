@@ -24,7 +24,7 @@ function Header() {
             >
             {/* <div className="hidden nav-items md:flex  items-center gap-4 list-none"> */}
             <li  onClick={() => window.innerWidth<768 && setIsOpen(!isOpen)} >
-              <Link href={'/our-story'} > Our Story</Link>
+              <Link href={'/posts'} > Posts</Link>
             </li>
             <li  onClick={() => window.innerWidth<768 && setIsOpen(!isOpen)} >
               <Link href={'/membership'} > Membership</Link>
