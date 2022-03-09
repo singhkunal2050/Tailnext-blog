@@ -1,8 +1,8 @@
 import { sanityClient, urlFor } from '../../sanity'
-import Header from '../components/Header'
+import Header from '../../components/Header'
 import { Post } from '../../typings-d'
 import { GetStaticProps } from 'next'
-import Footer from '../components/Footer'
+import Footer from '../../components/Footer'
 import React, { useState } from 'react'
 import PortableText from 'react-portable-text'
 import { useForm, SubmitHandler } from 'react-hook-form'
@@ -216,7 +216,7 @@ export const getStaticPaths = async () => {
 
   return {
     paths,
-    fallback: 'blocking',
+    fallback: 'blocking',    // need to check this 
   }
 }
 

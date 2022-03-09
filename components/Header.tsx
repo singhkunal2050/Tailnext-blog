@@ -3,6 +3,11 @@ import { useState } from 'react'
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false)
+
+  const toggleifMobile = () => {
+    window.innerWidth<768 && setIsOpen(!isOpen)
+  }
+
   return (
     <header>
       <nav className="border-2 border-b-black bg-blue-200 ">
@@ -22,19 +27,19 @@ function Header() {
             }
             >
             {/* <div className="hidden nav-items md:flex  items-center gap-4 list-none"> */}
-            <li  onClick={() => window.innerWidth<768 && setIsOpen(!isOpen)} >
+            <li  onClick={toggleifMobile} >
               <Link href={'/posts'} > Posts</Link>
             </li>
-            <li  onClick={() => window.innerWidth<768 && setIsOpen(!isOpen)} >
+            <li  onClick={toggleifMobile} >
               <Link href={'/membership'} > Membership</Link>
             </li>
-            <li  onClick={() => window.innerWidth<768 && setIsOpen(!isOpen)} >
+            <li  onClick={toggleifMobile} >
               <Link href={'/write'} > Write</Link>
             </li>
-            <li  onClick={() => window.innerWidth<768 && setIsOpen(!isOpen)} >
+            <li  onClick={toggleifMobile} >
               <Link href={'/sign-in'} > Sign In</Link>
             </li>
-            <li  onClick={() => window.innerWidth<768 && setIsOpen(!isOpen)} className="rounded-3xl bg-black p-2 text-white">
+            <li  onClick={toggleifMobile} className="rounded-3xl bg-black p-2 text-white">
               <Link href={'/get-started'} > Get Started</Link>
             </li>
           </div>

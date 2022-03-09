@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from './../../assets/img/logo-big.png'
+import logo from './../assets/img/logo-big.png'
 import Link from 'next/link'
 
 function Hero() {

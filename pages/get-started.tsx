@@ -1,6 +1,6 @@
-import Header from './components/Header'
+import Header from '../components/Header'
 import Head from 'next/head'
-import Footer from './components/Footer'
+import Footer from '../components/Footer'
 
 function getstarted() {
   return (
