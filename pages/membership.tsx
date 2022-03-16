@@ -17,29 +17,29 @@ function membership() {
 
             <div className="membership-wrapper grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-2 gap-2">
 
-              <div className="card bg-white py-8 shadow-sm border-2 border-orange-200  hover:shadow-xl hover:border-gray-400 hover:bg-orange-300 transition-all ease-in-out">
+              <div className="card bg-white py-8 shadow-sm border-2 border-orange-200  hover:shadow-xl hover:border-orange-400 hover:bg-orange-300 transition-all ease-in-out">
                   <h2 className='text-3xl mb-5'><strong>$45</strong>/Month</h2>
                   <h3 className='text-xl font-extrabold mb-5'>Gold Plan</h3>
                   <p className='leading-5 mb-5 px-10'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum numquam inventore corrupti?</p>
                   <li  className="rounded-3xl bg-black p-2 text-white max-w-[8rem] mx-auto">
-                    <Link href={'/get-started'} > Get Started</Link>
+                    <Link href={'/get-started'} > Try Now</Link>
                  </li>
                </div>
-               <div className="card bg-white py-8 shadow-sm border-2 border-blue-200  hover:shadow-xl hover:border-gray-400 hover:bg-blue-300 transition-all ease-in-out">
+               <div className="card bg-white py-8 shadow-sm border-2 border-blue-200  hover:shadow-xl hover:border-blue-400 hover:bg-blue-300 transition-all ease-in-out">
                   <h2 className='text-3xl mb-5'><strong>$95</strong>/Month</h2>
                   <h3 className='text-xl font-extrabold mb-5'>Diamond Plan</h3>
                   <p className='leading-5 mb-5 px-10'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum numquam inventore corrupti?</p>
                   <li  className="rounded-3xl bg-black p-2 text-white max-w-[8rem] mx-auto">
-                    <Link href={'/get-started'} > Get Started</Link>
+                    <Link href={'/get-started'} > Try Now</Link>
                  </li>
                </div>
 
-               <div className="card bg-white py-8 shadow-sm border-2 border-green-200  hover:shadow-xl hover:border-gray-400 hover:bg-green-300 transition-all ease-in-out">
+               <div className="card bg-white py-8 shadow-sm border-2 border-green-200  hover:shadow-xl hover:border-green-400 hover:bg-green-300 transition-all ease-in-out">
                   <h2 className='text-3xl mb-5'><strong>$145</strong>/Month</h2>
                   <h3 className='text-xl font-extrabold mb-5'>Platinum Plan</h3>
                   <p className='leading-5 mb-5 px-10'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum numquam inventore corrupti?</p>
                   <li  className="rounded-3xl bg-black p-2 text-white max-w-[8rem] mx-auto">
-                    <Link href={'/get-started'} > Get Started</Link>
+                    <Link href={'/get-started'} > Try Now</Link>
                  </li>
                </div>
 
