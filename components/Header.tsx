@@ -33,12 +33,12 @@ function Header() {
             <li  onClick={toggleifMobile} >
               <Link href={'/membership'} > Membership</Link>
             </li>
-            <li  onClick={toggleifMobile} >
+            {/* <li  onClick={toggleifMobile} >
               <Link href={'/write'} > Write</Link>
             </li>
             <li  onClick={toggleifMobile} >
               <Link href={'/sign-in'} > Sign In</Link>
-            </li>
+            </li> */}
             <li  onClick={toggleifMobile} className="rounded-3xl bg-black p-2 text-white">
               <Link href={'/get-started'} > Get Started</Link>
             </li>
