@@ -81,7 +81,6 @@ Deployed Vercel
 https://tailnext-blog.vercel.app/
 ```
 
-
 ____________________________________________________________________________--
 
 # Next.js + Tailwind CSS Example
